@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Text</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @fortunes.each do |f| %>
+      <tr>
+        <th scope="row"><%= f.id %></th>
+        <td><%= f.text %></td>
+        <td>
+        <%= link_to "edit", edit_fortune_path(f) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
