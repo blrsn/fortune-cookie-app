@@ -1,4 +1,4 @@
-# Fortune Cookie App
+# Fortune Cookie
 
 A simple web app which displays random, interesting adage
 
