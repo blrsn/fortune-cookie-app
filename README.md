@@ -1,5 +1,4 @@
 # Fortune Cookie App
 
-Displays a random, interesting adage on your browser
-
+A simple web app which displays random, interesting adage
 
